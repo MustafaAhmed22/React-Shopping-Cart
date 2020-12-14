@@ -4,10 +4,12 @@ export default function Product(props) {
     const {product} =props;
 
     return (
-        <div>
+      
+        <div className='product-container'>
+            
             <img className='small' src={product.image} alt={product.name}></img>
             <h3 >{product.name}</h3>
-            <div>$ {product.price}</div>
+            <p>$ {product.price}</p>
             <button>Add To Cart</button>
         </div>
     )
