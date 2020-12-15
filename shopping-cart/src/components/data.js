@@ -4,7 +4,7 @@ const data ={
             id :'1' ,
             name :'Old Car 1',
             price :'1400',
-            image : 'https://i.picsum.photos/id/133/2742/1828.jpg?hmac=0X5o8bHUICkOIvZHtykCRL50Bjn1N8w1AvkenF7n93E'
+            image : '/images/s.jpg'
         },
         {
             id :'2' ,
