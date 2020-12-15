@@ -32,7 +32,7 @@ function App() {
   }
   return (
     <div className="App">
-        <Header />
+        <Header countcartitems ={cartitems.length}/>
         <div className='row'>
         <Main onAdd ={onAdd} products ={products}/>
         <Basket onAdd={onAdd}
