@@ -46,7 +46,7 @@ return (
             </div>
             <hr></hr>
             <div className='row'>
-                <button onClick={()=>alert('implement checkout')}>
+                <button onClick={()=>alert(`implement checkout :$${totalprice.toFixed(2)}` )}>
                     Checkout 
                 </button>
             </div>
