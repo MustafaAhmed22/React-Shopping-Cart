@@ -5,7 +5,7 @@ export default function Product(props) {
 
     return (
       
-        <div className='product-container'>
+        <div>
             
             <img className='small' src={product.image} alt={product.name}></img>
             <h3 >{product.name}</h3>

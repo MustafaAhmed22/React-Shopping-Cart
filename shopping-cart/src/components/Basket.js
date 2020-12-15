@@ -42,7 +42,7 @@ return (
             </div>
             <div className='row'>
                 <div className='col-2'>Total Price</div>
-                <div className='col-1 text-right'>${totalprice}</div>
+                <div className='col-1 text-right'>${totalprice.toFixed(2)}</div>
             </div>
             <hr></hr>
             <div className='row'>

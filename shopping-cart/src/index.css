@@ -65,3 +65,7 @@ button.badge{
   border: none;
   color: #ffffff;
 }
+.products-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
